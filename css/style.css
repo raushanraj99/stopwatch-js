@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to left, rgb(56, 161, 227), rgba(17, 211, 208, 0.863));
+}
+.wrapper{
+    margin-top: 10vh;
+    margin-left: 30vw;
+    height: 50vh;
+    width: 40vw;
+    text-align: center;
+}
+h1{
+    font-size: 6vw;
+    color: rgb(183, 20, 20);
+}
+h2{
+    font-size: 2vw;
+    color: purple;
+}
+p,span{
+    font-size: 3vw;
+    color: purple;
+}
+button{
+    font-size: 2vw;
+    width: 10vw;
+    margin: 2%;
+    border-radius: 20px;
+    padding: 4%;
+}
+#button-start{
+    background-color: green;
+    color: antiquewhite;
+}
+#button-stop{
+    background-color: red;
+    color: antiquewhite;
+}
+#button-reset{
+    background-color:gray ;
+    color: antiquewhite;
+}
